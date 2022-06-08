@@ -14,6 +14,10 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
+    ##########
+    # bruh   #
+    ##########
+
     if "bruh moment" in message.content:
         await message.channel.send("bruh moment indeed")
     elif "bruh" in message.content:
